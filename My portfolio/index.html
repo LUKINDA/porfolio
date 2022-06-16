@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/6cbdefd758.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+    
+    <div class="hero">
+        <div class="overlay">
+
+        </div>
+<!--Navigation bar-->
+        <nav>
+            <div class="mainlogo">
+                <img src="/images/logo.svg" alt="">
+                <h2 class="logo">PORT<span>FOLIO</span></h2>
+            </div>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars" id="icon"></i>
+                </label>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+            <div id="theme">
+                <input type="checkbox" name="" id="checkbox" class="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    
+                    <div class="ball"></div>
+                </label>
+                <script src="jscode/them.js"></script>
+            </div>
+        </nav>
+<!--End of navigation bar-->
+        <div class="page-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+<!--Home page-->
+        <section id="home">
+            <div class="mypicture" data-aos="fade-up" data-aos-duration="1000">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="images/phinnee.png" alt="">
+                </div>
+            </div>
+
+            <div class="social-media" data-aos="fade-up" data-aos-duration="1000">
+                <div class="title">
+                    <h3>Check Out <span>My</span></h3>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/phynnee_lukinda" id="first"><i class="fa-brands fa-instagram first"></i></a>
+                    <a href="https://www.linkedin.com/in/phynne-lukinda-07851b221"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.twitter.com/BenGranger18" id="last"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+            </div>
+
+            <div class="introduction" data-aos="fade-up" data-aos-duration="1000">
+                <h4>HI, I AM</h4>
+                <h2>PHINNEE <span>LUKINDA</span></h2>
+                <h3>I am a <span>Web Developer</span> & <span>Designer</span></h3>
+                <p>I'm a web developer with an art & Design passion, with
+                    a background in designs. being a graduated student
+                    in Computer Science, my interests lie in solving
+                    problems and create attractive user interfaces and
+                    reflect the beauty and value of the content.
+                </p>
+                <div class="buttons" >
+                    <button type="submit" onclick="window.location.href='mailto: phylukinda@gmail.com'">HIRE ME <i class="fa-solid fa-circle-arrow-right"></i></button>
+                    <button ><a href="" downloa="Phinnee Lukinda CV">DOWNLOAD CV <i class="fa-solid fa-download"></i></a></button>
+                </div>
+            </div>
+
+            <!-- <div class="greetings">
+                <h4> &#8212; 18 April</h4>
+            </div> -->
+            
+        </section>
+<!--End of home page-->
+<hr>
+<!--About me page-->
+        <section id="about">
+            <div class="mypicture2" data-aos="fade-up" data-aos-duration="1000">
+                <img src="images/lukinda.jpg" alt="">
+            </div>
+            <div class="about-message" >
+                <h4 data-aos="fade-up" data-aos-duration="1000"><span>Discover</span></h4>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About <span>Me</span></h2>
+                <div class="title" data-aos="fade-up" data-aos-duration="1000">
+                    <h3>A creative freelancer and full stuck
+                        web developer
+                    </h3>
+                </div>
+                <p data-aos="fade-up" data-aos-duration="1000" >I am a web developer and designer, graduated in the departement of
+                    Computer Science at Northrise University and currently based in
+                    Zambia, I am a full stuck developer. I can provide clean code and pixel
+                    perfect design. I also make the website more & more intercative with
+                    web animation. A responsive design makes your website accessible to
+                    all users, regardless of their device.
+                </p>
+                <div class="social-media2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="https://www.instagram.com/phynnee_lukinda" id="first"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/phinneelukinda"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://wa.me/+260978626825"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto: phylukinda@gmail.com" id="last"><i class="fa-light fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>02</h1>
+                <hr>
+            </div> -->
+        </section>
+<!--End of about me page-->
+<hr>
+<!--Services page-->
+        <section id="services">
+            <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><span>What I do</span></h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">My <span>Services</span></h2>
+            <div class="box" >
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fa-regular fa-display-code"></i>
+                    <h5>Web Design</h5>
+                    <div class="note">
+                        <p>“The only source of knowledge is experience” said Albert 
+                            Einstein, I trust my ability to create some very attractive
+                            through the experience I aquired by passion of design and hard work.
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="fa-regular fa-code"></i>
+                    <h5>Web Development</h5>
+                    <div class="note">
+                        <p>Every website should be biult with two primary goals: First,
+                            it needs to work across all devices. secondly, it needs to be fast
+                            as possible. apart from that it must be accessible any time.
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <i class="fa-regular fa-pen-nib"></i>
+                    <h5>UI/UX Design</h5>
+                    <div class="note">
+                        <p>UX design is crucial to just about everything. 
+                            It makes our favourite apps and websites 
+                            a pleasure to use, and determines if we will return to
+                            over and over again. for that I am equipped.
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fa-regular fa-pen-paintbrush"></i>
+                    <h5>Graphical Design</h5>
+                    <div class="note">
+                        <p>Graphic design is an extraordinary talent and skill 
+                            set that experts work years to develop. And for those of us 
+                            without that specific skill, you can reach me out to work for you.
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <i class="fa-regular fa-network-wired"></i>
+                    <h5>Network</h5>
+                    <div class="note">
+                        <p>All one needs is a computer, a network connection, 
+                            and a bright spark of initiative and creativity to 
+                            join the economy.Connecting expands possibilities - 
+                            in work and in life
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <i class="fa-regular fa-gears"></i>
+                    <h5>Computer troubleshooting</h5>
+                    <div class="note">
+                        
+                        <p>Making sure your equipment is in good health is vital, 
+                            I am equipped with the 
+                            knowledge and skills to meet all your computer needs.
+                        </p>
+                        <p style="text-align: center;">
+                            <a href="" class="button">Read more</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>03</h1>
+                <hr>
+            </div> -->
+        </section>
+<!--End of services page-->
+<hr>
+<!--Skills page-->
+        <section id="skills">
+            <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><span>What I know</span></h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">My <span>Skills</span></h2>
+            <div class="box">
+                <div class="development" >
+                    <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Development</h3>
+                    </div>
+                    <div class="elements">
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="item-text">
+                                <span>HTML</span>
+                                <span class="bar1">90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar1"></div>
+                            </div>
+                        </div>
+        
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="item-text">
+                                <span>CSS/SASS</span>
+                                <span class="bar2">60%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar2"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <div class="item-text">
+                                <span>JAVASCRIPT</span>
+                                <span class="bar3">20%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar3"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                            <div class="item-text">
+                                <span>REACT</span>
+                                <span class="bar4">5%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="design">
+                    <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <i class="fa-solid fa-palette"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="elements">
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="item-text">
+                                <span>PHOTOSHOP</span>
+                                <span class="bar5">60%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar5"></div>
+                            </div>
+                        </div>
+        
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="item-text">
+                                <span>ILLUSTROTOR</span>
+                                <span class="bar6">60%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar6"></div>
+                            </div>
+                        </div>
+                        <div class="item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <div class="item-text">
+                                <span>UX/UI</span>
+                                <span class="bar7">40%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bar7"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>04</h1>
+                <hr>
+            </div> -->
+            <div class="next-experience" data-aos="fade-up" data-aos-duration="1000">
+                <h4>Experience</h4>
+                <i class="fa-solid fa-angles-down"></i>
+            </div>
+        </section>
+<!--End of skills page-->
+<hr>
+<!--Eperience page-->
+        <section class="experience">
+            <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><span>My timeline</span></h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">My <span>Experience</span></h2>
+            <div class="box">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                    <h4>Experience</h4>
+                    <h2>2+</h2>
+                    <h4>Years</h4>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h4>Projects</h4>
+                    <h2>10+</h2>
+                    <h4>Completed</h4>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h4>Current projects</h4>
+                    <h2>5</h2>
+                    <h4>projects</h4>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <h4>Clients</h4>
+                    <h2>7+</h2>
+                    <h4>Happy clients</h4>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>04</h1>
+                <hr>
+            </div> -->
+        </section >
+<!--End of experience page-->
+<hr>
+<!--My blog page-->
+        <section id="blog">
+            <h4 data-aos="fade-up" data-aos-duration="1000" ><span>See my work</span></h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">My <span>Blog</span></h2>
+            <div class="main-message">
+                <div class="mainthem">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" >
+                        <img src="images/coins-growing-in-soil-economic-growth.jpg" alt="">
+                    </div>
+                    <div class="maintitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <h6>Case study &#8212; April 2, 2022</h6>
+                        <h4>What you do makes a difference, and you have to 
+                            decide what kind of difference you want to make.</h4>
+                        <p>Every moment of every day you have an opportunity 
+                            to make a difference.I personally decided to make a difference
+                            in everything I do with a passion of it.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="categories" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div>
+                        <i class="fa-light fa-list-check"></i>
+                    </div>
+                    <ul>
+                        <li><a href="pages/resources.html"  >Resources Center</a></li>
+                        <li><a href="pages/motivation.html" >Motivation</a></li>
+                        <li><a href="#mywork" >My work</a></li>
+                        <li><a href="pages/learn.html" >Learn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="update">
+                <h2 data-aos="fade-up" data-aos-duration="1000">News <span>&</span> Update</h2>
+                <div class="box">
+                    <div class="card card1" data-aos="fade-up" data-aos-duration="1000" >
+                        <a href="">
+                            <img src="images/motivation.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card card2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <a href="">
+                            <img src="images/webdesign.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card card3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <a href="">
+                            <img src="images/computercode.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="card card4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <a href="">
+                            <img src="images/graphical design.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>05</h1>
+                <hr>
+            </div> -->
+            
+        </section>
+<!--End of blog page-->
+<!--Continued blog-->
+        <section id="mywork">
+            <h4 data-aos="fade-up" data-aos-duration="1000"><span>What I have done</span></h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Recent <span>Projects</span></h2>
+            <div class="navbar" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <ul>
+                    <li class="all active">ALL</li>
+                    <li data-filter=".first">DESIGNS</li>
+                    <li data-filter=".second">CODES</li>
+                    <li data-filter=".third">FOREX</li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="">
+                        <img class="image__img" src="images/logodesign.png" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Logo Design</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="">
+                        <img src="images/businesscard.jpg" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Business card</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="">
+                        <img src="images/pmoney.png" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Pmoney website</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <a href="">
+                        <img src="images/Web design.png" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Web design</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="">
+                        <img src="images/dashboard.jpg" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Web dashboard</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="">
+                        <img src="images/bear logo 2.png" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Logo design</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <a href="">
+                        <img src="images/house1.jpg" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">Upstairs house design</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <a href="">
+                        <img src="images/Image15.png" alt="">
+                        <div class="image__overlay">
+                            <h2 class="image__title">House design</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>05</h1>
+                <hr>
+            </div> -->
+        </section>
+<!--End of continued blog-->
+
+<hr>
+<!--Contact me page-->
+        <section id="contact">   
+            <div class="getintouch">
+                <h4 data-aos="fade-up" data-aos-duration="1000" ><span>Get in touch</span></h4>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">contact <span>Me</span></h2>
+                <div class="details">
+                    <form action="https://formspree.io/f/mnqwrlwl" method="post" id="my-form">
+                        <div class="input" data-aos="fade-up" data-aos-duration="1000">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="names" placeholder="Name" name="Customer name">
+                        </div>
+                        <div class="input" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="Customer email" id="mail" placeholder="Enter email">
+                        </div >
+                        <div class="message__area input" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <textarea name="Customer message" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="sub-button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <button type="submit" class="message-sub"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                            <!-- <div id="status" class="Accept">
+                                Success
+                            </div> -->
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="infos">
+                <h4 data-aos="fade-up" data-aos-duration="1000"><span>My infos</span></h4>
+                <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">All <span>Contacts</span></h2>
+                <div class="detailsinfo" id="infowhite">
+                    <ul data-aos="fade-up" data-aos-duration="1000">
+                        <li ><a href="mailto: phylukinda@gmail.com"><i class="fa-solid fa-envelope"></i> @gmail.com</a></li>
+                        <li ><a href="https://wa.me/+260978626825"><i class="fa-brands fa-whatsapp"></i> Whatsapp Me</a></li>
+                    </ul>
+                    <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <li ><a href="https://www.linkedin.com/in/phynne-lukinda-07851b221"><i class="fa-brands fa-linkedin"></i> phinnee Lukinda</a></li>
+                        <li ><a href="https://www.twitter.com/BenGranger18"><i class="fa-brands fa-twitter"></i> lukinda</a></li>
+                    </ul>
+                    <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <li ><a href="https://www.instagram.com/phynnee_lukinda"><i class="fa-brands fa-instagram"></i></i> phynne_lukinda</a></li>
+                        <li ><a href="https://t.me/phinneelukinda"><i class="fa-brands fa-telegram"></i></i> t.me lukinda</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="page-number">
+                <h1>05</h1>
+                <hr>
+            </div> -->
+        </section>
+<!--End of contact me page-->
+
+        
+    </div>
+    <hr>
+    <footer>
+        <div class="footertitle">
+            <h2 data-aos="fade-up" data-aos-duration="1000" >Phinnee <span>Lukinda</span></h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">I am a freelancer web developer and design with a greate design tallent
+                to create beautiful website.
+            </p>
+            <div id="social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <a href="mailto: phylukinda@gmail.com"><i class="fa-light fa-envelope"></i></a>
+                <a href="https://t.me/phinneelukinda"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="https://wa.me/+260978626825"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                
+            </div>
+            <div class="reserved">
+                <p>&#9400; 2022 Everest &#8212; All Rights Reserved</p>
+            </div>
+        </div>
+        
+    </footer>
+    <div id="toppage">
+        <i class="fa-solid fa-angles-up"></i>
+        <script src="/jscode/greetings"></script>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });   
+    </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
